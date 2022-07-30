@@ -1,0 +1,2903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111111101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="125" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x1266AD">
+  <layouts>
+    <layout name="npnxnanbsnfns10111111101" font="Lato" controllayout="npnxnanbsnfns10111111101" colorscheme="pxabnsnfns10111111101" string_table="pxabnsnfns10111111101" />
+    <layout name="pxabnsnfns10111111101" font="Lato" controllayout="pxabnsnfns10111111101" colorscheme="pxabnsnfns10111111101" string_table="pxabnsnfns10111111101" />
+    <layout name="npxnabnsnfns10111111101" font="Lato" controllayout="npxnabnsnfns10111111101" colorscheme="pxabnsnfns10111111101" string_table="pxabnsnfns10111111101" />
+    <layout name="npnxnanbnsnfns10111111101" font="Lato" controllayout="npnxnanbnsnfns10111111101" colorscheme="pxabnsnfns10111111101" string_table="pxabnsnfns10111111101" />
+    <layout name="pxabnsnfns10111111100" font="Lato" controllayout="pxabnsnfns10111111100" colorscheme="pxabnsnfns10111111101" string_table="pxabnsnfns10111111101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Accessibility 101:  Ensuring Your Course is Accessible to All" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="glossary" value="true" group="linkleft" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="transcript" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111111101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111111101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1266AD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1266AD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111111101">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Transcript</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6grqpI3gN23" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6grqpI3gN23.67gAPuDI5Ln" displaytext="Course Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6grqpI3gN23.5iMoHP66ZCS" displaytext="Course Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6grqpI3gN23.5mrE8d5oo2J" displaytext="Getting Started" expand="false" type="slide" />
+            <slidelink slideid="_player.6grqpI3gN23.5njMQgxWT4a" displaytext="Course Expectations" expand="false" type="slide" />
+            <slidelink slideid="_player.6grqpI3gN23.5h8QsyIpUBc" displaytext="Technology Needed" expand="false" type="slide" />
+            <slidelink slideid="_player.6grqpI3gN23.6a9Ltjpv2hF" displaytext="Guide Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6grqpI3gN23.6M9Bqcl7kSS" displaytext="Learner Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6grqpI3gN23.5jjEsTUxeIF" displaytext="How Do You Feel?" expand="false" type="slide" />
+            <slidelink slideid="_player.6grqpI3gN23.6QXeszgaYT7" displaytext="Experience Level? " expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5XrXY8WCZU1" displaytext="Triggering Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5XrXY8WCZU1.6dUFVN83MK3" displaytext="Triggering Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.61awhcA40HE" displaytext="Big Idea" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.5Vs1KP74YR2" displaytext="Purpose of Training" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.6VJtfVypbAQ" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.6eyomDB9MiJ" displaytext="What to Expect " expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.634kx6BwNLh" displaytext="Guess the Percentage" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.5nMuK6dvQpL" displaytext="Surprising Percentage" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.64kaUVwlJoS" displaytext="What Is an Accessible Course?" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.6RVxuTXyYRo" displaytext="  Accessibility Key Terms" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.60HPtekmL34" displaytext="Accessibility in Higher Education" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.5eGnJ1PmvHb" displaytext="The Problem of Accessibility" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.6p6Fa9R4VSM" displaytext="Who Benefits?" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.6aAkYkDh8EH" displaytext="Everyone Benefits!" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.6QRs9tRrWXK" displaytext="Barriers to Learning" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.692ONEBPryp" displaytext=" Barrier Builder or Eliminator?" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.5e0bxyf9i0y" displaytext="Barrier Eliminator? Response" expand="false" type="slide" />
+            <slidelink slideid="_player.5XrXY8WCZU1.6HlcuoDl89c" displaytext=" Removing Barriers" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6KJd4WAPm0n" displaytext="Exploration Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6KJd4WAPm0n.5ZWR5BUujKE" displaytext="Exploration Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5a9gHEp6YG0" displaytext="A Common Problem" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.6BMlqyocd28" displaytext="ADA Violations" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5tjT0eKZlT1" displaytext="  It’s the Law" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.61MTJRIcsRf" displaytext="Section 508" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.6KJ1L0PejZM" displaytext=" Americans with Disabilities Act" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.6bxi7QMKnIX" displaytext=" Prioritizing Accessibility" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.6NzA9BpQkXc" displaytext="True or False?" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5waYpS2El9p" displaytext=" Defining Accessibility" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5nAhilDemWb" displaytext="Complexity of Accessibility" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.68QZpxPnMu3" displaytext="Challenges" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.62FShRwokPf" displaytext="WCAG" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.6XMoEQ1V8vm" displaytext="Simple Changes, Big Results" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5qyP3AMQ9lo" displaytext="Who Benefits?" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5eGHnlzhHM8" displaytext="Failure to Comply" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5fclZuobDbg" displaytext="Top Failures" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5ewdqSIVtn7" displaytext="POUR Principles " expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.6loBSSk0KrS" displaytext="POUR Defined" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.6eBg5wG2mKT" displaytext="Meaning of Principles" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5WgSx67jkyR" displaytext="POUR Checklist" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.5gfUnlj1d9s" displaytext="POUR Match Game" expand="false" type="slide" />
+            <slidelink slideid="_player.6KJd4WAPm0n.6rCcj1I6tzu" displaytext="POUR Review" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5WCJtmTIWcS" displaytext="Integration Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5WCJtmTIWcS.6ejJhXLyDOJ" displaytext="Integration Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6Qh4XKZt4Ek" displaytext="Complex Made Simple" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6YdCgKStPB9" displaytext="Practice Makes Perfect" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6Z0Tq50yuhF" displaytext="Welcome, Dr. Taylor!" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.5c3HurzfuBn" displaytext="Goal:  Student Success" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.5XeLBzlsTVh" displaytext="Roster of Disabilities" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6Ms0MZFBa20" displaytext="How Do I Make My Class Accessible?" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.5kCeG2eqoB9" displaytext="Learning Barriers to Remove" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.5u6X3gr3yyR" displaytext="Complex Issue" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6b2oIUAA18O" displaytext="What are POUR Principles?" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6EDoCqLHp6B" displaytext="Define the POUR Principles" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.5iym8Sy981u" displaytext="POUR Principles Benefit Everyone" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6bvWp9Emcey" displaytext="Accessibility How-To Tips" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6GfiikaJPuW" displaytext="Organizing POUR Principles" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6rLCmUqKvA6" displaytext="How-To Tip Match Up" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.6gTWvDJLc0H" displaytext="How-To Tip Review" expand="false" type="slide" />
+            <slidelink slideid="_player.5WCJtmTIWcS.68o9wNKFMg0" displaytext="Ready for Class!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5fNZiWSZupy" displaytext="Resolution Phase" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5fNZiWSZupy.6qyjvyBzeLc" displaytext="Resolution Phase" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.5ihasg3zpIB" displaytext="Key Points" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.6SSrQWH6cYr" displaytext="Name, Please" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.6365b5ctAk2" displaytext="Quiz Expectations" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.6fcAg9qFvop" displaytext="Criteria for Success" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.63sY57wmlFh" displaytext="Start Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.5VR1s3REB8q" displaytext="Question 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.5uXcU5jXYyQ" displaytext="Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.5b9DHmSiwGM" displaytext="Question 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.5hL8JFPcBlg" displaytext="Question 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.63A797tX28A" displaytext="Question 5" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.5yGQfhZgrMx" displaytext="Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.5zd2sPV7MMD" displaytext="Thank You" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.6cESYCt9BA5" displaytext="References" expand="false" type="slide" />
+            <slidelink slideid="_player.5fNZiWSZupy.5gyZi3SF0K3" displaytext="References" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://www.oercommons.org/courses/defining-accessibility/view" image="story_content/url.png" title="National Center on Accessible Educational Materials" />
+      <resource url="https://romeo.elsevier.com/accessibility_checklist/" image="story_content/url.png" title="Accessibility Checklist" />
+      <resource url="https://www.bing.com/aclk?ld=e8wn67Oa1ARIJ-OVJNmkpPOjVUCUxc1qag3tgvDHBSGwlMK8COdBbdBp3zjjE3khOlBBpjd6xhfU1sW37ImRrjBHOnQt71to_skla2tzeX8tKs8zOdGAQHU4431cLS6sB5D04hcZLUfY6obY06XfTgfUz5bX0cCG7GtnIJ3qyWuQVuL4QJB8HDmRHPisqU3yl3_oiJSW-ib-lhRXhxvfhr5nMzUYM&amp;u=aHR0cHMlM2ElMmYlMmZ3d3cuc2l0ZWltcHJvdmUuY29tJTJmZ2xvc3NhcnklMmZ3Y2FnLWNvbXBsaWFuY2UtY2hlY2tlciUyZiUzZnV0bV9jYW1wYWlnbiUzZHVzX2Z5MjBfcHBjX2FjY2Vzc2liaWxpdHlfYmluZyUyNnV0bV9tZWRpdW0lM2RwcGMlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9jb250ZW50JTNkd2NhZy1jaGVja2Vy&amp;rlid=b7879878f87315d30068fa9bdc63ed6b&amp;ntb=1" image="story_content/url.png" title="Accessibility Checker" />
+      <resource url="https://www.w3.org/WAI/standards-guidelines/wcag/" image="story_content/url.png" title="Web Content Accessibility Guidelines (WCAG)" />
+      <resource url="https://www.w3.org/WAI/standards-guidelines/wcag/" image="story_content/url.png" title="WCAG 101:  Understanding the Web Content Accessibility Guidelines" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6grqpI3gN23.5iMoHP66ZCS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Accessibility 101: Ensuring Your Course is Accessible to All explores the meaning of accessibility, why it is important, and how to increase the accessibility of online courses.  Let’s get started."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6grqpI3gN23.5mrE8d5oo2J" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="There are several helpful features in this course.  To access the table of contents,  click the menu button in the upper left corner.   A glossary and resource tab are located in the top right corner of the screen.  Closed captions and a volume control buttons are located in the bottom right corner.   To move forward, click the next button.  Click the back button to go back to the previous slide.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6grqpI3gN23.5njMQgxWT4a" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=" To successfully complete this course, you need to complete all sections of the training and score an 80% or higher on the final assessment located at the end of the course."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6grqpI3gN23.5h8QsyIpUBc" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="To fully access this training, you will need a robust internet connection and speakers."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6grqpI3gN23.6a9Ltjpv2hF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Hi, my name is Candace.  Welcome to Accessibility 101:  Ensuring Your Course is Accessible to All.  In my role as an Accessibility Consultant, I work with colleges and universities across the country to increase the accessibility of online courses to students with disabilities.   I’ll be your guide for this course."&gt;
+        &lt;Style FontSize="10.5" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6grqpI3gN23.6M9Bqcl7kSS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Before we get started, please take a moment to introduce yourself by typing your name in the text box.  When you are finished, click the submit button."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6grqpI3gN23.5jjEsTUxeIF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now that we have been introduced, tell me a little more about yourself.  Let’s start with how you feel about incorporating accessibility features into your online course to make it widely accessible to students with disabilities.  Turn the dial to best match your feelings.  When you are finished, click the next button.&amp;#xD;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6grqpI3gN23.6QXeszgaYT7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Just one more question before we move on.  How would you rate your level of experience incorporating accessibility features into an online course?  Are you a novice, proficient, or expert?  Move the slider to match your experience level.  When you are finished, click the next button."&gt;
+        &lt;Style FontSize="10.5" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.61awhcA40HE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=" Despite good intentions, many courses fall short of being fully accessible to students with diverse needs.  In this training, we’ll explore the idea of how an online course can be designed so that it is widely accessible to students with diverse disabilities.  &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.5Vs1KP74YR2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The purpose of this training is to provide you with foundational knowledge of what online accessibility means, its legal requirements, and the basic steps you can take to ensure students with disabilities do not face learning barriers in their educational journey.  When courses are accessible, students with disabilities have the opportunity to thrive at your college or university.  &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.6VJtfVypbAQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="By the end of this course, you will be able to define accessibility, explain why accessibility is important, and apply elements of the POUR principles to improve the accessibility of a course.  &amp;#xD;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.6eyomDB9MiJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Throughout this course you will be asked to complete short activities that will help you practice and apply what you have learned.  This course will take approximately 15 minutes to complete.  At the end, you will be required to complete a final assessment that will be scored.  To successfully complete this course, you need to score an 80% or above on this assessment.  If you do not meet this score on your first attempt, you will be directed back to the beginning of the course to review it and then try the assessment again.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.634kx6BwNLh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="According to the most recent data from the National Council for Education Statistics, what percentage of undergraduate students in the United States report having a disability?   Type your response into the answer box and click the submit button when you are finished."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.5nMuK6dvQpL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="According to the most recent data from the National Council for Education Statistics, nineteen percent of undergraduate students report having a disability.  That is nearly one out of every five students.  Chances are, you will have one or more students with a disability in your online course.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.64kaUVwlJoS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=" As I mentioned before, one of the goals of this course is to guide you in making your online course widely accessible to students with disabilities.  You may be wondering at this point, what exactly is an “accessible” course?  The US Department of Education and US Department of Justice (2010) consider a course to be accessible if a person with a disability can acquire the same information, engage in the same interactions, and enjoy the same services as a person without a disability. "&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.6RVxuTXyYRo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="There are several key terms I’d like you to be familiar with as we explore the issue of Accessibility.  Click on each tile to see the definition of the key term."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.60HPtekmL34" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Increasing numbers of learners with disabilities are enrolling in colleges and universities, and many of these learners prefer an online learning environment because it is convenient and allows them greater flexibility in where and how they learn.  Students who are physically disabled can avoid commuting around campus, and anxious learners can stay in their comfort zones.  It is likely that you will have learners with visual, auditory, cognitive, or motor impairment in your course."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.5eGnJ1PmvHb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="While most colleges and universities report meeting accessibility requirements, many fall short of being truly accessible to a wide range of disabilities.  The National Center on Accessible Educational Materials describes accessibility as a simple concept in theory, but complicated in practice.  There are many types of disabilities with vastly different barriers to consider.  What is accessible to someone with a visual impairment may not be accessible to someone with a cognitive disability.  The good news is that when care is taken to make a course widely accessible, all students can benefit."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.6p6Fa9R4VSM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Who benefits from an accessible course?    Check each box that applies."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.6aAkYkDh8EH" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Accessibility features, despite who they are intended for, help everyone.  These features help instructors avoid discrimination and legal complaints.  All learners benefit from a user-friendly course experience.  Your institution can promote a culture of diversity and inclusion and reach a wider student body."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.6QRs9tRrWXK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Learners with disabilities face many barriers in higher education.  Selecting a college or university that provides the accommodations their disability requires for success is often the first challenge.  Once at the school of their choice, students with disabilities must gain access to the tools and resources they need to be successful.  When classes begin and the educational resources and materials are not formatted to work with seamlessly with assistive technologies, yet another learning barrier is created.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.692ONEBPryp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="As an instructor at a college or university, you are in a unique position to either eliminate or build barriers to learning for students with a disability.  While few instructors would maliciously choose to place learning barriers along student’s educational path, many do unintentionally because they do not have a foundational understanding of the basic accessibility principles."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.5e0bxyf9i0y" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Are you helping students with disabilities overcome barriers to learning?  Or, are you creating barriers?  Reflect upon your past experience instructing an online course.  Would your course have been accessible to learners with auditory, visual, cognitive, and motor impairments?  Please type your response into the text box and click the submit button when you are finished."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5XrXY8WCZU1.6HlcuoDl89c" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Despite good intentions, instructors create unintentional learning barriers when principles of accessibility are not incorporated into a course’s design.  This course will give you a foundational understanding of these principles so you can eliminate barriers instead of creating them."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5a9gHEp6YG0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="What do all of these higher education institutions have in common? "&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.6BMlqyocd28" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Each of these institutions has had a lawsuit waged against it for lack of accessible resources or materials.  For example, in the case of Miami University, a blind student accused Miami of discriminating based on disability, claiming the school used technologies inaccessible to students with vision, auditory, or learning disabilities.  The U.S. Department of Justice found the university guilty of violating the Americans with Disabilities Act."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5tjT0eKZlT1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Not only is having an accessible course the right thing to do, it is also required by law.  There are two disability laws, in particular, that have significant implications for colleges and universities.  These are Section 508 of the Rehabilitation Act Amendments of 1998, and the Americans with Disabilities Act."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.61MTJRIcsRf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Let’s take a closer look at each law.  Section 508 of the Rehabilitation Act requires all federal agencies to make reasonable efforts to provide digital information that is equally accessible to individuals with a disability.  Although this law is limited to the Federal government, the Department of Education requires all institutions receiving federal aid to comply with Section 508.  This law was updated in 2018 to include websites and incorporate the Web Content Accessibility Guidelines as the standard for accessibility.&amp;#xD;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.6KJ1L0PejZM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The Americans with Disabilities Act is a law enacted in 1990 to protect individuals with a disability from discrimination.  Originally, the law focused on the accessibility of physical facilities, such as offices, restrooms, and schools.  Today, however, it has expanded to apply to websites and digital content.  The US Department of Justice enforces ADA regulations."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.6bxi7QMKnIX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Almost every college or university enrolls students with disabilities.  However, not all institutions prioritize accessibility.  Schools that put little consideration into helping all learners access learning are putting their institution at risk for lawsuits, loss of reputation, and financial repercussions.  As instructor, you can make positive strides for your institution by making sure your online course is widely accessible."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.6NzA9BpQkXc" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Is the following statement true or false?   Section 508 of the Rehabilitation Act and the Americans with Disabilities Act apply to websites and digital content, such as a course syllabus.  Click the circle that matches your answer."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5waYpS2El9p" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=" As mentioned earlier, a course is accessible if a learner with a disability can acquire the same information, engage in the same interactions, and enjoy the same services as a learner without a disability.  Moreover, a learner with a disability should be able to do this without undue burden.  "&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5nAhilDemWb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The issue of accessibility is complex.  Learners who are visually, auditory, cognitively and physically impaired face different types of challenges due to the unique nature of their disability.  For example, how might the needs of someone who is deaf be different that someone with a cognitive disability such as dyslexia?  Or the needs of a person who is color blind from the needs of an amputee with an artificial limb?&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.68QZpxPnMu3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Students with different types of disabilities face different types of learning barriers.  Let’s take a closer look at common barriers for each category of disability.  Hover over each tile to learn more about the common learning challenges associated with that category of disability."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.62FShRwokPf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="As you can see, ensuring a course is accessible to such wide range of disabilities takes much consideration.  Fortunately, the World Wide Web Consortium, developed the Web Content Accessibility Guidelines that are considered the international standard for digital accessibility.  Following these guidelines increases the likelihood that your course will be accessible to a wide range of learners.  We’ll take a closer look at these guidelines a bit later.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.6XMoEQ1V8vm" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now that you are familiar with learning barriers associated with each category of disability, can you think of some simple things you can do to make your online course more user-friendly for all learners with disabilities?  For example, using a logical structure on your syllabus and high contrast text and images can help all learners, both with and without disabilities.   Simple changes can result in a more positive learner experience for everyone involved."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5qyP3AMQ9lo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Students with which of the disabilities below can benefit from a well-structured course homepage?  Click on each image that you think is correct.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5eGHnlzhHM8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="AAAtraq, a compliance identification and management system vendor, analyzed the home pages of 2,000 higher education institutions and found that 96% of them failed to be fully ADA digitally compliant.  Can you guess what the three most common accessibility failures were in this study? &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5fclZuobDbg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="According to this study, the top three compliance failures were inadequate alternative text for images, inadequate link text that describe navigational links, and inadequate form labels, which describe information being collected on a form.  &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5ewdqSIVtn7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now that you are familiar with disability laws and common barriers that result from the various types of disabilities, let’s look at how you can create a compliant course that is accessible to a wide range of disabilities.  Section 508’s Web Content Accessibility Guidelines  POUR Principles are a great place to start.&amp;#xD;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.6loBSSk0KrS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="40">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="POUR is an acronym that represents the four qualities of an accessible digital experience.  These qualities are Perceivable, Operable, Understandable, and Robust. The POUR Principles are the foundation of the Web Content Accessibility Guidelines.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.6eBg5wG2mKT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="41">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=" Let’s take a closer look at how each principle can help you create an accessible course for your learners.  Click on each circle to learn more about how to apply the POUR Principles."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" FontIsBold="True" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5WgSx67jkyR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="42">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="There are many POUR checklist available that provide step-by-step guidance in making a course accessible.  Your school may provide you with a such a list.  If not, a checklist is included in the Resources section of this course."&gt;
+        &lt;Style FontSize="16" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="16" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.5gfUnlj1d9s" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="43">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Let’s Review!  Below are four Accessibility checklists, one for each of the POUR principles.  Drag and drop each description onto the correct checklist."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6KJd4WAPm0n.6rCcj1I6tzu" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="44">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Looks like you are having trouble matching the POUR principles to their meaning.  Here are the correct answers.  Please take a moment to review the Pour Principles and their meanings before continuing this course."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6Qh4XKZt4Ek" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="45">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The diversity of disabilities among your student population can make accessibility a complex issue.  Incorporating the POUR Principles into a course’s design can simplify this issue and allow you to create a course that is widely accessible to students with a disability.  In this section of the course, you’ll be asked to apply what you have learned in a role-play interaction."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6YdCgKStPB9" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="46">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The purpose of this role-play interaction is to help you apply what you have learned to a real-world setting.  Practice makes perfect, and this activity will allow you to practice applying what you have learned in a safe, risk-free setting.   &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6Z0Tq50yuhF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="47">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="For this activity, you will play the role of Dr. William Taylor.  William is a new faculty member at a public university.  He will be the instructor for Business 101, a foundational online course for all business-related majors.  Because it is an introductory course, class sizes are large.   As you advance through this role-play activity, you will help William make decisions concerning the accessibility of his online course.  Click the Start button to begin."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.5c3HurzfuBn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="48">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="I am excited for the opportunity to share my business knowledge and expertise with university students.  My goal is to help them build a strong understanding of basic business principles that they can apply across any business-related area of study.  Although I have a large group of students, I strive to help each one of them to be successful in this course.  &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.5XeLBzlsTVh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="49">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="This morning I received an email from the Student Disability Services Office informing me that four of my incoming students have known disabilities.  I need to make sure that the materials and resources for my Business 101 course are accessible to these students. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6Ms0MZFBa20" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="50">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=" I certainly want to help these four students access my class as easily as students without a disability.  However, their disabilities are wide ranging and present different challenges.  How do I design my course so that everyone can access learning regardless of what type of disability they may or may not have?  &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.5kCeG2eqoB9" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="51">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Hmmm.  What are the challenges that each type of disability may impose on a student?  Knowing the common barriers to learning will help me know how  to improve the accessibility of my course.   I’ll make a list of them here."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.5u6X3gr3yyR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="52">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Wow! That’s a long list of learning barriers I need to address.  I am not sure how to do this, but it would be wrong, not to mention illegal, for me to ignore them.  I want every student to succeed in Business 101, so it is important that every student can access to the resources and information online.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6b2oIUAA18O" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="53">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The email from the Student Disability Services Office suggested I use the POUR Principles as a starting point for ensuring my course is accessible.  What are the POUR Principles?&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6EDoCqLHp6B" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="54">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="I remember hearing about the POUR Principles in my orientation.  I know POUR is an acronym and each letter stands for an important component of accessibility.  Let’s see if I can remember what principle each letter in POUR represents."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.5iym8Sy981u" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="55">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="That makes sense.  I can use the POUR principles to make my course perceivable, operable, understandable, and robust.  In fact, they make an online course more user friendly for everyone, both with and without a disability.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6bvWp9Emcey" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="56">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now that I am familiar with the POUR Principles, I contacted the Student Disability Services Office for a list of specific changes I can make to my course to make it more accessible.  They provided me with a helpful list of suggestions.  &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6GfiikaJPuW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="57">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Now, I would like to organize these suggestions into a checklist that will help me track my progress and make sure I don’t overlook anything.  I’d like to organize all the tips by the POUR Principle they support.  &amp;#xD;&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6rLCmUqKvA6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="58">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="I will use a four quadrant board and sticky notes to organize the how to tips according to the POUR Principle they support.   Now I just have to place each tip onto the correct quadrant.  " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.6gTWvDJLc0H" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="59">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="That was challenging!  I better pause here and review the principles and how to tips before I begin revising my course." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WCJtmTIWcS.68o9wNKFMg0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="60">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=" Great!  My checklist is complete and ready to use.  I feel confident that I can incorporate the POUR Principles into my course design, and I can’t wait for the semester to begin.  All of my students will now have a better opportunity for success in Business 101!&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5fNZiWSZupy.5ihasg3zpIB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="61">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Let’s review the key points from this course.  First, accessibility means that a person with a disability can acquire the same information, engage in the same interactions, and enjoy the same services as a person without a disability.  Second, Section 508 of the Rehabilitation Act along with the Americans with Disabilities Act protect individuals with a disability from discrimination.  And today, both laws also apply to digital content.  Finally, athough accessibility can be a complex issue due to the vast range of disabilities, the POUR Principles can simplify this problem and make a course accessible for a wide range of students."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5fNZiWSZupy.6SSrQWH6cYr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="62">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="To successfully finish this course, you are required to complete a brief quiz.  Your quiz  results will be personalized, and your first and last name is required.   Type your name into the text box below and then click the next button to continue."&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5fNZiWSZupy.6365b5ctAk2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="63">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The quiz covers the information presented in this course, including the meaning of accessibility, the laws associated with accessibility, and the POUR Principles.   If you would like to review any of these topics, you can use the  Menu to return to each section of the course.  The quiz has five questions in the form of multiple choice, true/false, fill-in-the-blank, and matching.  The quiz will take about 5 minutes to complete.&amp;#xD;"&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="14" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5fNZiWSZupy.6fcAg9qFvop" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="64">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="A score of 80% is required to pass the quiz.  A passing score will be noted in the LMS and will fulfill your new faculty accessibility training requirements.  You will also have the option of printing a completion certificate for you records.  For a score less than 80%, you will be prompted to review your answers and try the quiz again.  &amp;#xD;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5fNZiWSZupy.63sY57wmlFh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="65">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Click the Start Quiz button to begin the quiz.  For technical assistance, contact the Faculty Technology Office."&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xD;&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5fNZiWSZupy.5yGQfhZgrMx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="66">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Ensuring that your online course is accessible to students with a disability is not just the right things to do, it is also the legal thing to do.  An accessible course benefits everyone.  Students with a wide range of disabilities can access learning materials and resources, and all students benefit from a user-friendly online experience.  The POUR Principles provide an applicable list of suggestions for making a course widely accessible.  By incorporating these principles, you can remove learning barriers and better support your students on their academic journey.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5fNZiWSZupy.5zd2sPV7MMD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="67">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Thank you for completing Accessibility 101:  Ensuring Your Course is Accessible to All.  I hope you have gained a better understanding of what accessibility means, why it is important, and how to make a course more accessible to students with a disability.  If you are interested in learning more about accessibility, consider taking the next course in the series, Accessibility 201:  Applying the POUR Principles.   &amp;#xD;"&gt;
+        &lt;Style FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Accessibility">The measure of a web page's usability by persons with a disability.</term>
+      <term title="Accessible Educational Materials">Print- and technology-based educational materials that are designed to be usable across a wide range of disabilities
+</term>
+      <term title="Accessible Formats">Various formats, such as braille, large print and digital text, that provide the same information as a text-based material.</term>
+      <term title="Accessible Technology">Includes hardware devices and software that provide learners with access to content in an accessible digital format</term>
+      <term title="Alternative Text">Short text used to describe images, usually in 125 characters or less.</term>
+      <term title="Assistive Technologies">Technology designed to address specific barriers that learners with disabilities may face.  Text-to-speech readers, screen readers, and speech recognition are examples of assistive technology.
+</term>
+      <term title="Auditory Disability">Disability defined by a decrease in ability or total inability to hear.  </term>
+      <term title="Cognitive Disabilities">A broad spectrum of conditions that make it difficult for people to perform one or more types of mental tasks than the average person.</term>
+      <term title="Disability">A limitation in ability.  Disabilities can be visual, auditory, cognitive, or motor impairments.</term>
+      <term title="Mobility/Physical Disability">Impairments, limitations or characteristics that limit or prevent independent movementor full use of a body part(s).</term>
+      <term title="Section 508">Section 508 of the Rehabilitation Act's purpose is to eliminate barriers to information technology for individuals with a disability.  The law applies to all Federal agencies and includes institutions that receive federal finding.</term>
+      <term title="Visual Disability">A decreased ability to see or a total lack of vision.  </term>
+      <term title="WCAG">Web Content Accessibility Guidelines are the international standard for web content accessibility.  The guidelines are organized into four principles:  perceivable, operable, understandable, and robust.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
